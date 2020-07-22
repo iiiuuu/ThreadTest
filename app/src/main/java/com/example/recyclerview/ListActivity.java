@@ -25,7 +25,7 @@ public class ListActivity extends AppCompatActivity {
         recyclerView.addItemDecoration(mDivider);
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        MyAdapter myAdapter = new MyAdapter(Data.getDataList(15));
+        MyAdapter myAdapter = new MyAdapter(this, Data.getDataList(15));
         recyclerView.setAdapter(myAdapter);
     }
 }

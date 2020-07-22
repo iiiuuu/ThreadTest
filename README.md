@@ -1,3 +1,3 @@
 # RecyclerView
 -------------------
-![avatar](./multiviewScreen.png)
+![avatar](./pictureRecyclerView.png)

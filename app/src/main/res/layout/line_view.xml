@@ -4,9 +4,17 @@
     android:layout_height="wrap_content"
     android:layout_marginStart="10dp">
 
+    <ImageView
+        android:id="@+id/image_view_tx"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="200dp"
+        android:src="@mipmap/ic_launcher" />
+
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp">
 
         <TextView
             android:id="@+id/title"
@@ -28,6 +36,7 @@
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="50dp"
         android:textAllCaps="false"
         android:textSize="20sp" />
